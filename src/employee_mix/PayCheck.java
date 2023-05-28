@@ -90,7 +90,7 @@ public class PayCheck extends javax.swing.JFrame {
         
         //for employee
         try{
-            FileInputStream file2 =new FileInputStream("Employee.dat");//data file create and save- stackoverflow
+            FileInputStream file2 = new FileInputStream("Employee.dat");//data file create and save- stackoverflow
             ObjectInputStream inputFile2 = new ObjectInputStream(file2);//read from the file
             
             boolean endOfFile =false;
@@ -153,7 +153,7 @@ public class PayCheck extends javax.swing.JFrame {
         int lastIndex = transactions.size() - 1;//last trans amount from the trans array (size - 1)
         
         if (lastIndex >= 1) {
-            return transactions.get(lastIndex) + transactions.get(lastIndex - 1);//update kora value
+            return transactions.get(lastIndex);//update kora value
         }else if (lastIndex == 0) {
             return transactions.get(lastIndex); //last hoile
         }else {

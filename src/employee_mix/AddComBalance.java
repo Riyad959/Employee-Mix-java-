@@ -5,6 +5,7 @@
 package employee_mix;
 
 import java.io.*;
+import java.util.*;
 import javax.swing.*;
 
 /**
@@ -15,6 +16,9 @@ public class AddComBalance extends javax.swing.JFrame {
     
     
     private double tranAmount;
+    private double previousAmount;
+    ArrayList<Double> transactions = new ArrayList<Double>(); 
+
 
     /**
      * Creates new form AddComBalance
@@ -25,11 +29,39 @@ public class AddComBalance extends javax.swing.JFrame {
     
     
     public void saveMoneyToFile() {
+    // Read
+        try {
+            File file = new File("Money.txt");
+            Scanner scanner = new Scanner(file);
+            ArrayList<Double> transactions = new ArrayList<>();
+
+            while (scanner.hasNextDouble()) {
+                double amount = scanner.nextDouble();
+                transactions.add(amount);
+            }
+
+            scanner.close();
+
+            int lastIndex = transactions.size() - 1;
+
+            if (lastIndex >= 1) {
+                previousAmount = transactions.get(lastIndex);
+            }else {
+                previousAmount = 0.0;
+            }
+        } 
+        catch (FileNotFoundException e) {
+                e.printStackTrace();
+                previousAmount = 0.0;
+        }
+
+        
+        // Write
         try {
             FileWriter writer = new FileWriter("Money.txt", true); // Append to the file
-            writer.write(Double.toString(tranAmount) + "\n"); // Write the transaction amount
+            writer.write(Double.toString(previousAmount + tranAmount) + "\n"); // Write the transaction amount
             writer.close();
-        
+
             JOptionPane.showMessageDialog(null, "Balance tranfared successfully!");
             this.dispose();
         } catch (IOException e) {
