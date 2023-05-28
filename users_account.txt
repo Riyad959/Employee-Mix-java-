@@ -1,0 +1,6 @@
+riyad:hello
+siam:alvi
+ami:tumi
+water:pani
+pen:kolom
+a:a

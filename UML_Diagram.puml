@@ -1,0 +1,56 @@
+@startuml
+annotation java.lang.SuppressWarnings
+class employee_mix.AddComBalance
+class employee_mix.AddEmployee
+class employee_mix.AddNewJob
+class employee_mix.Attendance
+class employee_mix.AttendanceManagement
+class employee_mix.AttendancePrint
+class employee_mix.CompanyBalance
+class employee_mix.CompanyInfo
+class employee_mix.CreateUser
+class employee_mix.EditEmployee
+class employee_mix.Employee
+class employee_mix.Employee_Mix
+class employee_mix.FrontPage
+class employee_mix.JFrame
+class employee_mix.Job
+class employee_mix.Login
+class employee_mix.PayCheck
+class employee_mix.Transaction
+class java.util.Date
+class javax.swing.JFrame
+class javax.swing.table.DefaultTableModel
+interface employee_mix.ActionListener
+interface employee_mix.Serializable
+employee_mix.AddComBalance ..> java.lang.SuppressWarnings
+employee_mix.AddComBalance --|> javax.swing.JFrame
+employee_mix.AddEmployee ..> java.lang.SuppressWarnings
+employee_mix.AddEmployee --|> javax.swing.JFrame
+employee_mix.AddNewJob ..> java.lang.SuppressWarnings
+employee_mix.AddNewJob --|> javax.swing.JFrame
+employee_mix.Attendance ..> java.util.Date
+employee_mix.Attendance --|> employee_mix.Serializable
+employee_mix.AttendanceManagement ..> java.lang.SuppressWarnings
+employee_mix.AttendanceManagement --|> javax.swing.JFrame
+employee_mix.AttendancePrint ..> java.lang.SuppressWarnings
+employee_mix.AttendancePrint --|> javax.swing.JFrame
+employee_mix.AttendancePrint ..> javax.swing.table.DefaultTableModel
+employee_mix.CompanyInfo ..> java.lang.SuppressWarnings
+employee_mix.CompanyInfo --|> javax.swing.JFrame
+employee_mix.CreateUser --|> employee_mix.JFrame
+employee_mix.CreateUser --|> employee_mix.ActionListener
+employee_mix.EditEmployee ..> java.lang.SuppressWarnings
+employee_mix.EditEmployee --|> javax.swing.JFrame
+employee_mix.Employee --|> employee_mix.Serializable
+employee_mix.FrontPage ..> java.lang.SuppressWarnings
+employee_mix.FrontPage --|> javax.swing.JFrame
+employee_mix.Job --|> employee_mix.Serializable
+employee_mix.Login ..> java.lang.SuppressWarnings
+employee_mix.Login --|> javax.swing.JFrame
+employee_mix.PayCheck ..> java.lang.SuppressWarnings
+employee_mix.PayCheck --|> javax.swing.JFrame
+employee_mix.Transaction ..> java.lang.SuppressWarnings
+employee_mix.Transaction --|> javax.swing.JFrame
+employee_mix.Transaction ..> javax.swing.table.DefaultTableModel
+@enduml
