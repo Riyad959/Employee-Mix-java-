@@ -176,7 +176,6 @@ public class Login extends javax.swing.JFrame {
     
     //splite kore read korsi.array te set kore match korsi
     if (username.equals("admin") && "admin123".equals(password)) {
-        // If the entered credentials match the admin credentials
         JOptionPane.showMessageDialog(this, "Admin login successful!");
         new FrontPage().setVisible(true);
         this.dispose();
@@ -212,7 +211,6 @@ public class Login extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // exit button
-        //aro kaj kora lagbe point 4
             System.exit(0);
     }//GEN-LAST:event_jButton1ActionPerformed
 

@@ -26,7 +26,6 @@ public class CompanyBalance {
     }
     
     
-    //for access the value
     public String AcNum(){
         return account_number;
     }

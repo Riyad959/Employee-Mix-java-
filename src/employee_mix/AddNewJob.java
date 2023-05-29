@@ -47,7 +47,7 @@ public class AddNewJob extends javax.swing.JFrame {
                 }
                 catch(Exception f){
                     JOptionPane.showMessageDialog(null, f.getMessage());
-                }//any other exception. i called itt f
+                }
             }
             inputFile.close();
         }
@@ -67,10 +67,10 @@ public class AddNewJob extends javax.swing.JFrame {
             for(int i=0 ; i < jobs.size() ; i++){
                 outputFile.writeObject(jobs.get(i));//saving the job arraylist for every jobs object
             }
-            outputFile.close();//close korlam
+            outputFile.close();
             
             JOptionPane.showMessageDialog(null, "Successfully saved");
-            this.dispose();//close the window easy
+            this.dispose();
         }
         catch(IOException e){
             JOptionPane.showMessageDialog(null, e.getMessage());

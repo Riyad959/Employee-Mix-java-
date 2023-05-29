@@ -80,7 +80,7 @@ public class PayCheck extends javax.swing.JFrame {
                 }
                 catch(Exception f){
                     JOptionPane.showMessageDialog(null, f.getMessage());
-                }//any other exception. i called itt f
+                }
             }
             inputFile.close();
         }
@@ -105,7 +105,7 @@ public class PayCheck extends javax.swing.JFrame {
                 }
                 catch(Exception f){
                     JOptionPane.showMessageDialog(null, f.getMessage());
-                }//any other exception. i called itt f
+                }
             }
             inputFile2.close();
         }

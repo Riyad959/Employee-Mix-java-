@@ -92,7 +92,7 @@ public class EditEmployee extends javax.swing.JFrame {
                 }
                 catch(Exception f){
                     JOptionPane.showMessageDialog(null, f.getMessage());
-                }//any other exception. i called itt f
+                }
             }
             inputFile.close();
         }
@@ -117,7 +117,7 @@ public class EditEmployee extends javax.swing.JFrame {
                 }
                 catch(Exception f){
                     JOptionPane.showMessageDialog(null, f.getMessage());
-                }//any other exception. i called itt f
+                }
             }
             inputFile2.close();
         }
@@ -360,11 +360,10 @@ public class EditEmployee extends javax.swing.JFrame {
         {
             if(jobs.get(i).equals(job))
             {
-                index = i;//there it found
+                index = i;
                 break;
             }
         }
-        //index;
         
         jComboBox1.setSelectedIndex(index);
         
