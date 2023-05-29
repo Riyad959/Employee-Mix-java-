@@ -20,6 +20,7 @@ public class PayCheck extends javax.swing.JFrame {
     ArrayList<Job> jobs;
     ArrayList<Employee> employees;
     ArrayList<Double> transactions = new ArrayList<Double>(); 
+    double previousAmount;
 
     
 
@@ -93,7 +94,7 @@ public class PayCheck extends javax.swing.JFrame {
             FileInputStream file2 = new FileInputStream("Employee.dat");//data file create and save- stackoverflow
             ObjectInputStream inputFile2 = new ObjectInputStream(file2);//read from the file
             
-            boolean endOfFile =false;
+            boolean endOfFile = false;
             
             while(!endOfFile){
                 try{
@@ -111,7 +112,6 @@ public class PayCheck extends javax.swing.JFrame {
         catch(IOException r){
             JOptionPane.showMessageDialog(null, r.getMessage());
         }
-        
         
     }
     
@@ -153,11 +153,15 @@ public class PayCheck extends javax.swing.JFrame {
         int lastIndex = transactions.size() - 1;//last trans amount from the trans array (size - 1)
         
         if (lastIndex >= 1) {
-            return transactions.get(lastIndex);//update kora value
+            previousAmount = transactions.get(lastIndex);
+            return previousAmount;//update kora value
         }else if (lastIndex == 0) {
-            return transactions.get(lastIndex); //last hoile
+            previousAmount = transactions.get(lastIndex); //last hoile
+            return previousAmount;//update kora value
+
         }else {
-            return 0.0; //jodi kono taka ja jay
+            previousAmount = 0.0; //jodi kono taka ja jay\\
+            return previousAmount;//update kora value
         }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -168,6 +172,17 @@ public class PayCheck extends javax.swing.JFrame {
     public void addTransaction(double amount) {
         transactions.add(amount);
         ShowAc_takaNum();
+    }
+    
+    public void substractAmount(double amount) {
+        try {
+            FileWriter writer = new FileWriter("Money.txt", true); // Append to the file
+            writer.write(Double.toString(previousAmount - amount) + "\n"); // Write the transaction amount
+            writer.close();
+
+        } catch (IOException e) {
+            JOptionPane.showMessageDialog(null, e.getMessage());
+        }
     }
 
 
@@ -449,8 +464,6 @@ public class PayCheck extends javax.swing.JFrame {
         int selectedIndex = jComboBox1.getSelectedIndex();
         double salary = jobs.get(selectedIndex).getSalary();
 
-        
-        
         try {
             double textField5Value = Double.parseDouble(jTextField5.getText());
 
@@ -461,8 +474,9 @@ public class PayCheck extends javax.swing.JFrame {
                     double updatedSalary = salary - textField5Value;
                     jobs.get(selectedIndex).setSalary(updatedSalary);
                     jTextField5.setText(Double.toString(updatedSalary)); // Update the job obj in the ArrayList
-                    addTransaction(-textField5Value); // minus
+                    substractAmount(textField5Value); // minus
                     JOptionPane.showMessageDialog(null, "Salary paid successfully.");
+                    this.dispose();
                 } else {
                     JOptionPane.showMessageDialog(null, "Sorry, your Company's Account has no balance.");
                 }
@@ -472,7 +486,6 @@ public class PayCheck extends javax.swing.JFrame {
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(null, "anything elsee");
         }
-
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
