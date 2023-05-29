@@ -13,9 +13,7 @@ public class FrontPage extends javax.swing.JFrame {
     /**
      * Creates new form FrontPage
      */
-    
-    
-    
+
     public FrontPage() {
         initComponents();   
     }

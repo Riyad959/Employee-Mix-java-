@@ -115,12 +115,6 @@ public class PayCheck extends javax.swing.JFrame {
         
     }
     
-    
-    
-    
-    
-    
-    
     //for company account section
     
     public void ShowAc_takaNum(){
@@ -440,27 +434,7 @@ public class PayCheck extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // pay button
-        /*int selectedIndex = jComboBox1.getSelectedIndex();
-        double salary = jobs.get(selectedIndex).getSalary();
-        double textField5Value = Double.parseDouble(jTextField5.getText());
-        double companyBalance = Double.parseDouble(jTextField1.getText());
 
-        if (textField5Value <= companyBalance) {
-            if (textField5Value <= salary) {
-                double updatedSalary = salary - textField5Value;
-                jobs.get(selectedIndex).setSalary(updatedSalary);
-                jTextField5.setText(Double.toString(updatedSalary)); // Update the job obj in the araylist
-                addTransaction(-textField5Value);
-                JOptionPane.showMessageDialog(null, "Salary paid successfully.");
-            } else {
-                JOptionPane.showMessageDialog(null, "check salary amount.");
-            }
-        } else {
-            JOptionPane.showMessageDialog(null, "Sorry, your Company's Account has no money.");
-        }*/
-        
-       
         int selectedIndex = jComboBox1.getSelectedIndex();
         double salary = jobs.get(selectedIndex).getSalary();
 

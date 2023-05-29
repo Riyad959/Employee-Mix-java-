@@ -70,17 +70,8 @@ public class CompanyInfo extends javax.swing.JFrame {
         catch(IOException r){
             JOptionPane.showMessageDialog(null, r.getMessage());
         }
-        
-        
-        
-        
-        
     }
-    
-    
-    
-    
-    
+
 
     /**
      * Creates new form CompanyInfo

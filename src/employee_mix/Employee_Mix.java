@@ -9,10 +9,6 @@ package employee_mix;
  * @author Riyad
  */
 public class Employee_Mix {
-
-    
-    
-    
     public static void main(String[] args) {
         
         new Login().setVisible(true);

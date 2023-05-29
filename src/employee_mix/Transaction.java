@@ -16,20 +16,12 @@ public class Transaction extends javax.swing.JFrame {
     /**
      * Creates new form Transaction
      */
-    
-    
-    
-    
-    
+
     public Transaction() {
         initComponents();
         FillData();
     }
-    
-    
-    
-    
-    
+
     private void FillData() {
         String filename = "Money.txt";
 
@@ -49,11 +41,6 @@ public class Transaction extends javax.swing.JFrame {
             System.out.println("Error reading the file: " + e.getMessage());
         }
     }
-
-    
-    
-    
-    
 
     /**
      * This method is called from within the constructor to initialize the form.

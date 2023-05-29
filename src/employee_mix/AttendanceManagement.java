@@ -73,13 +73,7 @@ public class AttendanceManagement extends javax.swing.JFrame {
         }
     
     }
-    
-    
-    
-    
-    
-    
-    
+
     public void populateArraylist(){
         
         //for employee
@@ -105,12 +99,9 @@ public class AttendanceManagement extends javax.swing.JFrame {
         catch(IOException r){
             JOptionPane.showMessageDialog(null, r.getMessage());
         }
-        
-        
+
     }
-    
-    
-    
+
 
     /**
      * This method is called from within the constructor to initialize the form.
