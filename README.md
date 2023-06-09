@@ -1,9 +1,9 @@
-# Java-GUI-Project
-## Employee Management System in Java without MySQL
-* It is a small project built in Java language. I named it "HR-Connect"
-## To see the branding of the project follow the [website](https://sites.google.com/diu.edu.bd/devdeo/)
+# Employee-HR-Connect
+- It is a small project built in Java language. I named it "HR-Connect"
+- Employee Management System in Java without MySQL
+- To see the branding of the project follow the [website](https://sites.google.com/diu.edu.bd/devdeo/)
 
-# How to run this project
+# How to run
   - Install the NetBeans IDE in your system.
     - To install NetBeans, follow the [NetBeans Page](https://netbeans.apache.org/download/index.html).
   - Download and attach a Swing Container to your IDE.
@@ -19,7 +19,7 @@
     - For the Cloning repository, follow the [GitHub Page](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
   - Run the project and enjoy.
 
-# Screenshots of the project
+# Screenshots
 ## Login page
 ![Login page](/Project_ss/login.png)
 ## Lading page
