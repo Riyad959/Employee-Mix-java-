@@ -10,11 +10,11 @@
     - First, follow the drive link to download the JAR file of [Swing Container](https://drive.google.com/drive/folders/1c5iezJzm83BrZXPWNOJHVgBjMGv_Fcof?usp=sharing)
     - Second follow the steps for intall the JAR file to the container.
       1. Right-click to the "Swing Container" and press the "Palette Manager" option.
-      ![1](https://github.com/Riyad959/JAVA-GUI-Employee-HR-Connect/blob/ea1bc5e38ce8b403e990aeb603dabd93f0946655/Project_ss/1.png)
-      2. Click "Add from JAR" option to add the dowloaded JAR file.
-      ![1](https://github.com/Riyad959/JAVA-GUI-Employee-HR-Connect/blob/ea1bc5e38ce8b403e990aeb603dabd93f0946655/Project_ss/1.png)
-      3. Browse to the JAR file and install into the container.
-      ![3](https://github.com/Riyad959/JAVA-GUI-Employee-HR-Connect/blob/ea1bc5e38ce8b403e990aeb603dabd93f0946655/Project_ss/3.png)
+      ![1](Project_ss/1.png)
+      2. Click "Add from JAR" option to add the dowloaded JAR file to the container.
+      ![2](Project_ss/2.png)
+      4. Browse to the JAR file and install into the container.
+       ![3](Project_ss/3.png)
   - Clone the project from my repository.
     - For the Cloning repository, follow the [GitHub Page](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
   - Run the project and enjoy.
