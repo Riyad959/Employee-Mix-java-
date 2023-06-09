@@ -11,5 +11,10 @@
   - Clone the project from my repository.
     - For the Cloning repository, follow the [GitHub Page](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
   - Run the project and enjoy.
-# Screenshots of the project
 
+# Screenshots of the project
+![Login page](/Project_ss/login.png)
+![Lading page](/Project_ss/landing.png)
+![Edit employee page](/Project_ss/edit employee.png)
+![new job page](/Project_ss/new job.png)
+![paycheqe page](/Project_ss/paycheqe.png)
