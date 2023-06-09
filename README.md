@@ -8,6 +8,13 @@
     - To install NetBeans, follow the [NetBeans Page](https://netbeans.apache.org/download/index.html).
   - Download and attach a Swing Container to your IDE.
     - First, follow the drive link to download the JAR file of [Swing Container](https://drive.google.com/drive/folders/1c5iezJzm83BrZXPWNOJHVgBjMGv_Fcof?usp=sharing)
+    - Second follow the steps for intall the JAR file to the container.
+      1. Right-click to the "Swing Container" and press the "Palette Manager" option.
+      ![1]()
+      2. Click "Add from JAR" option to add the dowloaded JAR file.
+      ![2]()
+      3. Browse to the JAR file and install into the container.
+      ![3]()
   - Clone the project from my repository.
     - For the Cloning repository, follow the [GitHub Page](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
   - Run the project and enjoy.
