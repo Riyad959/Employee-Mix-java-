@@ -1,4 +1,4 @@
-# Employee-HR-Connect
+<h1 align="center">Employee-HR-Connect</h1>
 
 ## Table of Contents
 
