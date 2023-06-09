@@ -1,4 +1,14 @@
 # Employee-HR-Connect
+
+## Table of Contents
+
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+
 ## About
 - It is a small project built in Java language. I named it "HR-Connect"
 - Employee Management System in Java without MySQL
