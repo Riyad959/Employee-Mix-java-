@@ -13,8 +13,15 @@
   - Run the project and enjoy.
 
 # Screenshots of the project
+## Login page
 ![Login page](/Project_ss/login.png)
-![Lading page](/Project_ss/landing.png)
-![Edit employee page](/Project_ss/edit employee.png)
-![new job page](/Project_ss/new job.png)
-![paycheqe page](/Project_ss/paycheqe.png)
+## Lading page
+![Lading page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/landing%20page.png)
+## Edit employee page
+![Edit employee page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/edit%20employee.png)
+## New job page
+![new job page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/new%20job.png)
+## Paycheqe page
+![paycheqe page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/paycheqe.png)
+## Company information page
+![company info page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/info.png)
