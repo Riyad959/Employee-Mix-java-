@@ -2,12 +2,16 @@
 
 ## Table of Contents
 
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [How to use](#how-to-use)
+- [About](#about)
+- [How to Run](#how-to-run)
+- [Screenshots](#screenshots)
+  - [Login Page](#login-page)
+  - [Landing page](#landing-page)
+  - [Edit employee page](#edit-employee-page)
+  - [New job page](#new-job-page)
+  - [Paycheck page](#paycheck-page)
+  - [Company info page](#company-info-page)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 ## About
 - It is a small project built in Java language. I named it "HR-Connect"
@@ -25,21 +29,24 @@
       2. Click "Add from JAR" option to add the dowloaded JAR file to the container.
       ![2](Project_ss/2.png)
       4. Browse to the JAR file and install into the container.
-       ![3](Project_ss/3.png)
+      ![3](Project_ss/3.png)
   - Clone the project from my repository.
     - For the Cloning repository, follow the [GitHub Page](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
   - Run the project and enjoy.
 
 ## Screenshots
-### Login page
+  ### Login page
 ![Login page](/Project_ss/login.png)
-### Lading page
-![Lading page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/landing%20page.png)
-### Edit employee page
+  ### Landing page
+![Landing page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/landing%20page.png)
+  ### Edit employee page
 ![Edit employee page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/edit%20employee.png)
-### New job page
-![new job page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/new%20job.png)
-### Paycheqe page
-![paycheqe page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/paycheqe.png)
-### Company information page
-![company info page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/info.png)
+  ### New job page
+![New job page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/new%20job.png)
+  ### Paycheck page
+![Paycheck page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/paycheqe.png)
+  ### Company info page
+![Company info page](https://github.com/Riyad959/Employee-Mix-java-/blob/0a65093d4515b76f4aaefe296827a8436a23c8b1/Project_ss/info.png)
+
+## Contact
+- GitHub [@riyad959](https://github.com/riyad959)
